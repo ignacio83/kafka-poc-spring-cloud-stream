@@ -1,4 +1,4 @@
-package com.netshoes.poc.kakfa.domain;
+package br.com.afi.poc.kakfa.domain;
 
 public class Product {
 	private String sku;

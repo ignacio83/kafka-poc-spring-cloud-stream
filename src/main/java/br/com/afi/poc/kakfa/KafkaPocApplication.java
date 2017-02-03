@@ -1,4 +1,4 @@
-package com.netshoes.poc.kakfa;
+package br.com.afi.poc.kakfa;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

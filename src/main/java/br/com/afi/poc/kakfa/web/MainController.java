@@ -1,12 +1,12 @@
-package com.netshoes.poc.kakfa.web;
+package br.com.afi.poc.kakfa.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.integration.support.MessageBuilder;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.netshoes.poc.kakfa.config.Products;
-import com.netshoes.poc.kakfa.domain.Product;
+import br.com.afi.poc.kakfa.config.Products;
+import br.com.afi.poc.kakfa.domain.Product;
 
 @RestController
 public class MainController {

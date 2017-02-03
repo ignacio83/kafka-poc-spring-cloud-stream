@@ -1,11 +1,11 @@
-package com.netshoes.poc.kakfa;
+package br.com.afi.poc.kakfa;
 
 import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.cloud.stream.annotation.StreamListener;
 import org.springframework.messaging.handler.annotation.SendTo;
 
-import com.netshoes.poc.kakfa.config.Products;
-import com.netshoes.poc.kakfa.domain.Product;
+import br.com.afi.poc.kakfa.config.Products;
+import br.com.afi.poc.kakfa.domain.Product;
 
 @EnableBinding(Products.class)
 public class ProductsListener {

@@ -1,4 +1,4 @@
-package com.netshoes.poc.kakfa.config;
+package br.com.afi.poc.kakfa.config;
 
 import org.springframework.cloud.stream.annotation.Input;
 import org.springframework.cloud.stream.annotation.Output;
