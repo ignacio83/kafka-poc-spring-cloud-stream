@@ -1,3 +1,5 @@
+server:
+  port: 9090
 spring:
   cloud:
     stream:
@@ -5,6 +7,12 @@ spring:
         binder:
           brokers: localhost:9093,localhost:9094
           zk-nodes: localhost
+          auto-add-partitions: true
+          offsetUpdateCount: 1
+          offsetUpdateTimeWindow: 10000
       bindings:
         netshoesProducts:
           group: testando
+          consumer:
+            autoCommitOffset: true
+            concurrency: 100
